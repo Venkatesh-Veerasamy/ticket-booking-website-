@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deccan Air</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap">
+    <link rel="stylesheet" href="flight.css">
+</head>
+
+<body>
+    <header>
+  
+  
+        
+        </div>
+        <div class="name-details">
+            <h1>Deccan Air</h1>
+            <p>Connecting the world</p>
+        </div>
+    </header>
+
+    <main>
+        <div class="center-content">
+            <p class="credits"><i><b>Make you Fly Is Our Aim</b></i></p>
+        </div>
+
+        <div class="ticket-booking">
+            <h2>Book Your Ticket</h2>
+            <form id="bookingForm">
+                <label for="from">From:</label>
+                <input type="text" id="from" name="from" required>
+                
+                <label for="to">To:</label>
+                <input type="text" id="to" name="to" required>
+                
+                <label for="departure">Departure Date:</label>
+                <input type="date" id="departure" name="departure" required>
+                
+                <label for="return">Return Date:</label>
+                <input type="date" id="return" name="return">
+                
+                <button type="submit">Search Flights</button>
+            </form>
+        </div>
+
+        <div class="available-flights">
+            <h2>Available Flights</h2>
+            <ul id="flight-list">
+                <!-- flights will be displayed here -->
+            </ul>
+            <button id="book-flight-btn">Book Flight</button>
+        </div>
+
+        <div class="booking-details">
+            <h2>Booking Details</h2>
+            <p id="flight-number"></p>
+            <p id="departure-time"></p>
+            <p id="arrival-time"></p>
+            <p id="price"></p>
+            <button id="confirm-booking-btn">Confirm Booking</button>
+        </div>
+    </main>
+    
+
+    
+   
+    <script src="air.js"></script>
+</body>
+</html>

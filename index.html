@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Booking System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+
+        body {
+            background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20230717/pngtree-purple-travel-essentials-3d-render-of-mobile-phone-boarding-pass-suitcase-image_3897733.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            margin: 0;
+        }
+    </style>
+
+<body>
+    <header>
+     <H1> TICKET BOOKING CENTER </H1>
+        
+        </div>
+        
+         
+        </div>
+    </header>
+    <nav>
+        <ul>
+           
+           
+        </ul>
+    </nav>
+    <main>
+        <section id="search">
+            <h2>Search for Flights, Hotels, and Rental Cars</h2>
+            <form id="search-form">
+                <div>
+                    <label for="destination">Destination:</label>
+                    <input type="text" id="destination" name="destination" required>
+                </div>
+                <div>
+                    <label for="checkin">Check-in Date:</label>
+                    <input type="date" id="checkin" name="checkin" required>
+                </div>
+                <div>
+                    <label for="checkout">Check-out Date:</label>
+                    <input type="date" id="checkout" name="checkout" required>
+                </div>
+                <div>
+                    <button type="button" onclick="searchService('flights')">Search Flights</button>
+                    <button type="button" onclick="searchService('hotels')">Search Hotels</button>
+                    <button type="button" onclick="searchService('cars')">Search Rental Cars</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

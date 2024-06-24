@@ -1,0 +1,182 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #241882;
+    background-color: #f9f9f9;
+  }
+  
+  
+  h1, h2 {
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 20px;
+  }
+  
+  .center-content {
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: center;
+  }
+  
+  .credits {
+    font-size: 18px;
+    font-style: italic;
+    color: #666;
+  }
+  
+
+  
+  header {
+    background-color: #141194;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .logo {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 10px;
+    display: inline-block;
+  }
+  
+  .name-details {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+  }
+  
+  .name-details h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .name-details p {
+    font-size: 18px;
+    color: #ccc;
+  }
+  
+
+  
+  .ticket-booking {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .ticket-booking h2 {
+    margin-top: 0;
+  }
+  
+  .ticket-booking label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .ticket-booking input[type="text"],.ticket-booking input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .ticket-booking button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .ticket-booking button[type="submit"]:hover {
+    background-color: #444;
+  }
+  
+  /* Available Flights Styles */
+  
+  .available-flights {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .available-flights h2 {
+    margin-top: 0;
+  }
+  
+  .available-flights ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .available-flights li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .available-flights li:last-child {
+    border-bottom: none;
+  }
+  
+  .available-flights button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .available-flights button:hover {
+    background-color: #444;
+  }
+  
+  /* Booking Details Styles */
+  
+  .booking-details {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .booking-details h2 {
+    margin-top: 0;
+  }
+  
+  .booking-details p {
+    margin-bottom: 10px;
+  }
+  
+  .booking-details button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .booking-details button:hover {
+    background-color: #444;
+  }
